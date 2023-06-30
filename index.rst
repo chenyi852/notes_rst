@@ -13,6 +13,8 @@ Welcome to work_notes's documentation!
 
    diary/index
    notes/index
+   work/index
+   paper/index
 
 
 Indices and tables
