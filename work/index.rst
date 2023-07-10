@@ -11,3 +11,6 @@
         :caption: 工作笔记
 
         正则表达式
+        分布式操作系统
+        linux-kernel
+        linux-releasenotes
