@@ -14,3 +14,4 @@
         分布式操作系统
         linux-kernel
         linux-releasenotes
+        python
