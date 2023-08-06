@@ -15,3 +15,4 @@
         linux-kernel
         linux-releasenotes
         python
+        cuda
