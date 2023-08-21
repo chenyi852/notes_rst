@@ -1,5 +1,5 @@
-.. 青云熊猫 版权所有 2023
-	:作者: 青云熊猫
+.. johnny 版权所有 2023
+	:作者: johnny
 	:版本: 0.1
 
 工作
@@ -14,5 +14,6 @@
         分布式操作系统
         linux-kernel
         linux-releasenotes
+        linux_user_guide
         python
         cuda
