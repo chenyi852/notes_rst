@@ -18,6 +18,22 @@ ubuntu
 
     [ -f /usr/share/autojump/autojum.sh ] && source /usr/share/autojump/autojump.sh
 
+fzf安装
+--------------
+
+从下载源码 ::
+
+    git clone https://gitee.com/mamh-mixed/fzf-fzf/ ~/Downloads
+    
+执行intall脚本 ::
+
+    cd ~/Downloads && ./fzf-fzf/install
+
+在bashrc或者zshrc中添加 ::
+
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+    [ -f ~/.fzf.bash] && source ~/.fzf.bash
+
 网络工具
 =======================
 
