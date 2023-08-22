@@ -79,4 +79,4 @@ keytool找不到问题
 
 安装软件包 ::
 
-sudo apt install openjdk-8-jre-headless
+    sudo apt install openjdk-8-jre-headless
