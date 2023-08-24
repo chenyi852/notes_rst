@@ -12,3 +12,35 @@ django总结
 - 编辑 `models.py` 文件，改变模型。
 - python manage.py makemigrations polls（表名为polls）
 - python manage.py migrate
+
+表单
+===========
+
+form的实例用{{form.as_p}}输出。
+
+HTML模板语法
+===================
+
+for语法
+--------------
+
+::HTML
+
+    {%for item in 列表%} 
+	    // 循环逻辑 
+	    {{forloop.counter}}表示当前是第几次循环，从1开始 
+	    {%empty%} 列表为空或不存在时执行此逻辑 
+    {%endfor%}
+
+if语法
+---------------
+
+::HTML
+
+    {%if ...%}
+	    逻辑1
+    {%elif ...%}
+	    逻辑2
+    {%else%}
+	    逻辑3
+    {%endif%}
