@@ -16,4 +16,5 @@
         linux-releasenotes
         linux_user_guide
         python
+        django
         cuda
