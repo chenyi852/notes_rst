@@ -13,6 +13,15 @@ django总结
 - python manage.py makemigrations polls（表名为polls）
 - python manage.py migrate
 
+datefiled字段处理
+-----------------------
+
+需要从excel中读取日期存入sqlite3数据库中，然后django从数据库中读出。遇到的问题是django
+无法识破格式，报错"none type"。AI指出这是因为excel的日期类型是datetime.datetime,而django
+的格式是datetime.datetime.date()。转换为date后，django能读出数据。
+
+
+
 表单
 ===========
 
