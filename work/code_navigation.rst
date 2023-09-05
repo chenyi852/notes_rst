@@ -48,4 +48,4 @@ bear -- make Image -j`nproc`
 
 本文档参考自 [嵌入式打工仔文章]_。
 
-.. [嵌入式打工仔文章] 《xxxx》 https://blog.51cto.com/u_15948528/6027918
+.. [嵌入式打工仔文章] 《Vscode+Clangd 阅读linux内核源码》 https://blog.51cto.com/u_15948528/6027918
