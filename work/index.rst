@@ -18,3 +18,4 @@
         python
         django
         cuda
+        code_navigation
