@@ -12,3 +12,11 @@
 用vscode看代码，可以安装clangd插件。 `vscode+clangd`_
 
 .. _vscode+clangd: https://blog.51cto.com/u_15948528/6027918
+
+
+2023-9-7
+===============
+
+为了使用bpf做故障注入，学习`bpf可观测性`_
+
+.. _bpf可观测性教程: https://www.cnblogs.com/charlieroro/p/13265252.html
