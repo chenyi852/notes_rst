@@ -25,3 +25,15 @@ linux内核新闻跟踪
 如果结构体中的成员变量要被其他CPU访问，那么需要在成员变量后面加上cache line对齐的编译flag :: c
 
     atomic_t nr_running __cacheline_aligned_in_smp;
+
+2023-9-13
+======================
+
+如果要打开/proc/sched_debug, 需要修改内核的配置文件，将CONFIG_SCHED_DEBUG改为y。
+
+2023-10-08
+=======================
+
+workqueue的基本机制， `workqueue三种延迟`_
+.. _`workqueue三种延迟`:
+    https://zhuanlan.zhihu.com/p/648984958
