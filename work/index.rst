@@ -19,3 +19,4 @@
         django
         cuda
         code_navigation
+        onenote
