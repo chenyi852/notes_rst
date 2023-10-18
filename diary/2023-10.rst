@@ -21,3 +21,17 @@
     注意，这种做法并不是完全可移植的，因为C语言标准并没有保证指针和任何整数类型有相同的大小。
 
 然后再让google的bard与号称使用chatGPT的new bing，结果他们的结果都没有chatGPT好。
+
+
+lmbenchmark编译的方法::
+
+
+    git clone git@code-sh2.rnd.huawei.com:kernel_test/benchmark_project.git
+    cd XXX/benchmark_project/
+    patch -p1 < patch/lmbench3/0001-lmbench3-Fix-the-compile-bug.patch
+    arm64:
+    ./runtest.sh --compile-t stream,lmbench3,libMicro-0.4.0,netperf-2.7.0,unixbench,fio-3.12 --compile-s no --compile-a aarch64 --compile-o XXX/benchmark_bin
+    x86:
+    ./runtest.sh --compile-t stream,lmbench3,libMicro-0.4.0,netperf-2.7.0,unixbench,fio-3.12 --compile-s no --compile-a x86 --compile-o /XXX/benchmark_bin
+    cd /XXX/benchmark_bin
+    ./runtest.sh --test-t stream,lmbench3,libMicro-0.4.0,netperf-2.7.0,unixbench,fio-3.12 --test-l 5 --test-h 9.84.1.18 --test-u root --test-p Huawei12#$ --test-o /XXX/benchmark_bin > runtest.log
