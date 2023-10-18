@@ -35,3 +35,7 @@ lmbenchmark编译的方法::
     ./runtest.sh --compile-t stream,lmbench3,libMicro-0.4.0,netperf-2.7.0,unixbench,fio-3.12 --compile-s no --compile-a x86 --compile-o /XXX/benchmark_bin
     cd /XXX/benchmark_bin
     ./runtest.sh --test-t stream,lmbench3,libMicro-0.4.0,netperf-2.7.0,unixbench,fio-3.12 --test-l 5 --test-h 9.84.1.18 --test-u root --test-p Huawei12#$ --test-o /XXX/benchmark_bin > runtest.log
+
+性能优化start app 一直在运行，ldconfig进行D状态达1S，阻塞了启动时间。
+根据经验，ldconfig会去读squashfs中的数据，而此场景的squashfs的镜像都是保存在nand flash上的HFFS上。
+通过squashfs的流程分析是因为加了大锁导致HFFS的性能变差。
