@@ -39,3 +39,18 @@ lmbenchmark编译的方法::
 性能优化start app 一直在运行，ldconfig进行D状态达1S，阻塞了启动时间。
 根据经验，ldconfig会去读squashfs中的数据，而此场景的squashfs的镜像都是保存在nand flash上的HFFS上。
 通过squashfs的流程分析是因为加了大锁导致HFFS的性能变差。
+
+ssh隧道命令 ::
+
+    ssh -L 44444:192.168.122.6:22 -N -f -C -g chenyi@10.67.174.191
+
+-N
+    不用执行远端的命令。这个功能对于端口转发非常有用。
+
+-f
+    让ssh在后台执行。
+
+-C
+    所有的数据(stdin,stdout,stderr, 转发x11的数据，TCP和unix域的连接)都压缩
+
+-g 允许远程主机连接到本地转发的端口
