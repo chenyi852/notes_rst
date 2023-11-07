@@ -30,7 +30,13 @@ release = '0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# support markdown
+# pip install --upgrade recommonmark
+# support markdown table 
+# pip install sphinx-markdown-tables
 extensions = [
+     'recommonmark',
+     'sphinx_markdown_tables' 
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -74,3 +80,10 @@ html_siderbars = {
 }
 
 html_logo = '_static/python-logo-generic.svg'
+
+# https://sphinx-doc.readthedocs.io/zh-cn/master/usage/markdown.html
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}    
