@@ -4,3 +4,16 @@
 2023-11-7
 =================
 obsidian的主题推荐Blue Topaz，页面可以用鼠标放大缩小，同时要按照style settings插件一起用。
+
+2023-11-11
+==================
+archlinux keyring问题, ::
+
+    pacman -Syu haveged
+    systemctl start haveged
+    systemctl enable haveged
+    rm -fr /etc/pacman.d/gnupg
+
+    pa㎝an-key --init
+    pa㎝an-key  --populate archlinux  
+    pa㎝an-key  --populate archlinuxcn  
