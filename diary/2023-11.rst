@@ -14,6 +14,6 @@ archlinux keyring问题, ::
     systemctl enable haveged
     rm -fr /etc/pacman.d/gnupg
 
-    pa㎝an-key --init
-    pa㎝an-key  --populate archlinux  
-    pa㎝an-key  --populate archlinuxcn  
+    pacman-key --init
+    pacman-key  --populate archlinux  
+    pacman-key  --populate archlinuxcn  
