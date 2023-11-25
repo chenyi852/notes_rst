@@ -20,3 +20,4 @@
         cuda
         code_navigation
         onenote
+        git
