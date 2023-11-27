@@ -82,11 +82,6 @@ git 统计代码提交行
    .. code-block:: bash
    
         git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 5
-        
-rcu知乎链接 `rcu_reference`_
-
-.. rcu_reference: https://zhuanlan.zhihu.com/p/89439043
-
       
 参考 `CSDN代码行统计`_
 
