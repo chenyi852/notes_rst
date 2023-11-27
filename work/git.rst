@@ -11,7 +11,7 @@ git各分区转换
 
         +-------+               +----------+                  +----------+                        +----------+
         |       |  git add .    |          |  git commit      |          |  git push              |          |
-        | 工作区 |  -----------> |  暂存区   | --------------->| 本地仓库  | ---------------------> | 远程仓库  |
+        | 工作区 |  -----------> |  暂存区  | ---------------> | 本地仓库  | ---------------------> | 远程仓库  |
         |       |  <----------- |          | <--------------- |          |  <-------------------- |          | 
         |       |   git reset   |          | git reset --hard |          |  git reset --hard^ or  |          | 
         |       |               |          | origin/master    |          |  git reset --hard XXX  |          |
@@ -61,3 +61,34 @@ git各分区转换
 	- 修改最后一次提交:git commit --amend
 
 A+ -> A-  可以git checkout命令来解决，如果被修改的文件没有回退到原始状态，检查下该目录是否属于submodules，如果是，则进入该子模块目录，恢复该文件的状态。
+
+git 统计代码提交行
+=======================
+
+#. 统计某时间段的代码行
+
+   .. code-block:: bash
+   
+       git log --since=2017-04-10 --until=2017-07-10 --oneline | wc -l
+       
+#. 统计某人的代码量
+
+   .. code-block:: bash
+   
+        git log --author="$(git config --get user.name)" --pretty=tformat: --numstat | gawk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }' 
+        
+#. 仓库排名前5
+
+   .. code-block:: bash
+   
+        git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 5
+        
+rcu知乎链接 `rcu_reference`_
+
+.. rcu_reference: https://zhuanlan.zhihu.com/p/89439043
+
+      
+参考 `CSDN代码行统计`_
+
+
+.. CSDN代码行统计: https://blog.csdn.net/carterslam/article/details/81162463
