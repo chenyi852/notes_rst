@@ -25,4 +25,5 @@ archlinux keyring问题, ::
 
 .. _gradio: https://www.gradio.app/
 
-javascript代码换行不用加任何换行符，直接换就好
+javascript代码换行不用加任何换行符，直接换就好。字符串可以用字符创建，也可以用对象来创建。尽量
+不要用对象来创建，会影响代码的执行速度。
