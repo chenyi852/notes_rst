@@ -18,3 +18,9 @@ archlinux keyring问题, ::
     pacman-key --init
     pacman-key  --populate archlinux  
     pacman-key  --populate archlinuxcn  
+
+2023-11-28
+====================
+搭建自己的大模型环境，网站链接见 `gradio`_.
+
+.. gradio: https://www.gradio.app/
