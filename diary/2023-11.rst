@@ -24,3 +24,5 @@ archlinux keyring问题, ::
 搭建自己的大模型环境，网站链接见 `gradio`_.
 
 .. gradio: https://www.gradio.app/
+
+javascript代码换行不用加任何换行符，直接换就好
