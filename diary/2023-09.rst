@@ -17,6 +17,6 @@
 2023-9-7
 ===============
 
-为了使用bpf做故障注入，学习`bpf可观测性教程`_
+为了使用bpf做故障注入，学习 `bpf可观测性教程`_
 
 .. _bpf可观测性教程: https://www.cnblogs.com/charlieroro/p/13265252.html
