@@ -28,3 +28,15 @@ archlinux keyring问题, ::
 javascript代码换行不用加任何换行符，直接换就好。字符串可以用字符创建，也可以用对象来创建。尽量
 不要用对象来创建，会影响代码的执行速度。
 javascript的代码按从上往下执行，如果执行的代码引用的变量在下面定义识别不到，相当于没有定义。
+
+javascript中浮点精确度不够，所以先转换成整型，计算后再转成小数。
+javascript中换行要用'\'
+
+2023-11-29
+==============
+开源项目，目的是兼容mscos，叫做 `ravynos`_
+
+.. _ravynos: https://github.com/ravynsoft/ravynos
+
+
+Javascript默认一行结束，不管有没有分号，如果检测到不是完整的，则会自动会去读下一行。
