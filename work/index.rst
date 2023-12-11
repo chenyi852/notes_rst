@@ -12,6 +12,7 @@
 
         javascript
         正则表达式
+        shell
         分布式操作系统
         linux-kernel
         linux-releasenotes
