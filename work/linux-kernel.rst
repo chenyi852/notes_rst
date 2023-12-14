@@ -35,5 +35,5 @@ linux内核新闻跟踪
 =======================
 
 workqueue的基本机制， `workqueue三种延迟`_
-.. _`workqueue三种延迟`:
-    https://zhuanlan.zhihu.com/p/648984958
+
+.. _`workqueue三种延迟`: https://zhuanlan.zhihu.com/p/648984958

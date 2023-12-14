@@ -27,12 +27,12 @@ bear -- make Image -j`nproc`
 创建.clangd
 ----------------------
 
-在vscode打开的源代码的根目录创建一个名为.clangd的文件，区分32位arm和64位arm，其内容如下::
+在vscode打开的源代码的根目录创建一个名为.clangd的文件，区分32位arm和64位arm，其内容如下 ::
 
-32位：
+  #32位：
     CompileFlags:
       Add: --target=armv7-a
-64位：
+  #64位：
     CompileFlags:
       Add: --target=aarch64-linux-gnu
       Remove: -mabi=lp64
