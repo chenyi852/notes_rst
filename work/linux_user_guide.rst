@@ -34,6 +34,17 @@ fzf安装
     [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
     [ -f ~/.fzf.bash] && source ~/.fzf.bash
 
+pacman
+---------------
+#. 安装软件包，pacman 是arch linux系列系统的包管理软件，如果要安装包可以用 ::
+
+        pacman -S 软件名
+
+#. 更新系统, ::
+
+        pacman -Sy  从服务器下载新的软件包
+        pacman -Su 升级所有已经安装的软件包
+
 网络工具
 =======================
 
@@ -52,8 +63,21 @@ arch linux
     # 启动服务
     systemctl start sshd
     # 开机启动
-    systemctl enable sshd.service   
+    systemctl enable sshd
 
+开发软件
+===========
+
+编译工具
+-----------------
+
+arm64交叉编译工具, ::
+        
+        sudo pacman -S aarch64-linux-gnu-gcc
+
+qemu arm64架构命令, ::
+
+        sudo pacman -S qemu-system-aarch64
 
 截图软件
 ============
