@@ -29,7 +29,7 @@ archlinux keyring问题, ::
 
 2023-11-29
 ==============
-开源项目，目的是兼容mscos，叫做 `ravynos`_
+开源项目，目的是兼容macos，叫做 `ravynos`_
 
 .. _ravynos: https://github.com/ravynsoft/ravynos
 
