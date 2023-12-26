@@ -53,3 +53,11 @@ if语法
     {%else%}
 	    逻辑3
     {%endif%}
+
+
+第三方插件
+=================
+
+第三方插件如下 `django_package`_
+
+.. _django: https://djangopackages.org/
