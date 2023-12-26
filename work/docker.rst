@@ -11,7 +11,7 @@ docker引擎的配置文件在 /etc/docker/daemon.json, 下面是一个案例 ::
 			"ghcr.io",
 			"quay.io",
 			"registry-1.docker.io",
-		  ],
+		],
 		"registry-mirrors": [
 
 			"https://docker.mirrors.ustc.edu.cn",
@@ -37,3 +37,8 @@ docker引擎的配置文件在 /etc/docker/daemon.json, 下面是一个案例 ::
 	}
 
 通过上面的配置文件，可以指定docker daemon的文件都保存在/data/docker里。
+
+Dockerfile
+====================
+
+#. 不能用apt, 必须是apt-get

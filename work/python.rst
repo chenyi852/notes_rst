@@ -31,4 +31,19 @@ venv
 
         deactive
    
-        
+debug
+================
+
+#. 输出调用栈。如果python遇到错误，它就会生成一些错误信息，称为‘反向跟踪’。反向跟踪包含
+   了出错消息、导致该错误的代码行号，以及导致该错误的函数调用链。
+   .. code-block:python
+
+        import traceback
+
+        try:
+                raise Exception('This is the error message.')
+        except:
+                errorFile = open('errorInfo.txt', 'w')
+                errorFile.write(traceback.format_exec())
+                errorFile.Close()
+                print('The traceback info was written to errorInfo.txt')
