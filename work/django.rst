@@ -71,6 +71,7 @@ if语法
 
 下面是一段将表格分页显示的代码，post_list为paginator.page()返回。
 .. code-block:: html
+
         <div class="pagination">
                 <span class="step-links">
                         {% if post_list.has_previous %}
