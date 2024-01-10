@@ -61,3 +61,30 @@ if语法
 第三方插件如下 `django_package`_
 
 .. _django: https://djangopackages.org/
+
+
+网页
+=============
+
+分页机制
+------------
+
+下面是一段将表格分页显示的代码，post_list为paginator.page()返回。
+.. code-block:: html
+        <div class="pagination">
+                <span class="step-links">
+                        {% if post_list.has_previous %}
+                        <a href="?page=1">&laquo; 第一页</a>
+                        <a href="?page={{ post_list.previous_page_number }}">上一页</a>
+                        {% endif %}
+
+                        <span class="current-page">
+                                第 {{ post_list.number }} 页，共 {{ post_list.paginator.num_pages }} 页。
+                        </span>
+
+                        {% if post_list.has_next %}
+                        <a href="?page={{ post_list.next_page_number }}">下一页</a>
+                        <a href="?page={{ post_list.paginator.num_pages }}">最后一页 &raquo;</a>
+                        {% endif %}
+                </span>
+        </div>

@@ -10,7 +10,11 @@
         :maxdepth: 2
         :caption: 工作笔记
 
+        cuda
+        code_navigation
+        git
         javascript
+        django
         docker
         正则表达式
         shell
@@ -18,9 +22,8 @@
         linux-kernel
         linux-releasenotes
         linux_user_guide
+        pacman
         python
-        django
-        cuda
-        code_navigation
         onenote
-        git
+        
+        
