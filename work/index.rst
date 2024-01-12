@@ -25,5 +25,6 @@
         pacman
         python
         onenote
+        vscode
         
         

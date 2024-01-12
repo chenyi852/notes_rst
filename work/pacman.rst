@@ -18,3 +18,6 @@ arch linux的博客章节, ::
     sudo pacman-key --populate
 
     sudo pacman -Sy archlinux-keyring && pacman -Su
+
+    # 忽略key校验
+    makepkg -si --skippgpcheck
