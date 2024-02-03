@@ -37,3 +37,10 @@ linux内核新闻跟踪
 workqueue的基本机制， `workqueue三种延迟`_
 
 .. _`workqueue三种延迟`: https://zhuanlan.zhihu.com/p/648984958
+
+2023-07-11
+==================
+
+#. 调度在选择任务时会判断vruntime，选中后会把当前的vruntime赋给当前运行的任务。
+   
+   cgroup的所有任务一起统计vruntime。
