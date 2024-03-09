@@ -2,3 +2,4 @@ sphinx
 livereload
 sphinx-autodoc-typehints
 sphinx-book-theme
+recommonmark
