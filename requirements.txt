@@ -3,3 +3,4 @@ livereload
 sphinx-autodoc-typehints
 sphinx-book-theme
 recommonmark
+sphinx_markdown_tables
