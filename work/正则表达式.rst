@@ -10,9 +10,14 @@
 
 find和grep使用正则表达式
 ==============================
-find `pwd` -regex '.*\.\(c\|h\)' -type f -printf "%p\t\n" | grep -E -v ".*(tool|sdk)"
-	- 匹配当前目录下所有.c 和.h文件，
-	- find -regex 使用正则表达式需要转义
-        - grep使用正则表达式则不需要转义
+#. 搜索当前目录的c文件和h文件，通过grep来过滤不需要的文件
+
+   .. code-block:: console
+
+        find `pwd` -regex '.*\.\(c\|h\)' -type f -printf "%p\t\n" | grep -E -v ".*(tool|sdk)"
+
+   - 匹配当前目录下所有.c 和.h文件，
+   - find -regex 使用正则表达式需要转义
+   - grep使用正则表达式则不需要转义
 
 
