@@ -33,7 +33,7 @@ HTML模板语法
 for语法
 --------------
 
-::HTML
+::
 
     {%for item in 列表%} 
 	    // 循环逻辑 
@@ -44,7 +44,7 @@ for语法
 if语法
 ---------------
 
-::HTML
+::
 
     {%if ...%}
 	    逻辑1
@@ -70,7 +70,8 @@ if语法
 ------------
 
 下面是一段将表格分页显示的代码，post_list为paginator.page()返回。
-.. code-block:: html
+
+.. code-block:: HTML
 
         <div class="pagination">
                 <span class="step-links">
