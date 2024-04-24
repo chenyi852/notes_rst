@@ -26,5 +26,4 @@
         python
         onenote
         vscode
-        
-        
+        excel
