@@ -4,6 +4,17 @@ linux使用指南
 系统工具
 ========================
 
+小鹤输入法
+---------------------
+
+安装下面的软件包：
+    fcitx5  fcitx5-aterial-color fcitx5-rime
+
+打开fcitx5 configuration界面，打开"input method"的“pinyin"项中，点击右边的设置图标，
+弹出的界面中，"Shuangpin Profile"下拉框选中"xiaohe"。 参考 `fcitx5-rime挂接小鹤拼音`_
+
+.. _`fcitx5-rime挂接小鹤拼音`: https://rovo98.github.io/posts/2f1de6fa/
+
 安装autojump
 -------------
 

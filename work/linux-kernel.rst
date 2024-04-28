@@ -22,9 +22,11 @@ linux内核新闻跟踪
 2023-9-4
 =======================
 
-如果结构体中的成员变量要被其他CPU访问，那么需要在成员变量后面加上cache line对齐的编译flag :: c
+如果结构体中的成员变量要被其他CPU访问，那么需要在成员变量后面加上cache line对齐的编译flag 
 
-    atomic_t nr_running __cacheline_aligned_in_smp;
+.. code-block:: c
+
+   atomic_t nr_running __cacheline_aligned_in_smp;
 
 2023-9-13
 ======================

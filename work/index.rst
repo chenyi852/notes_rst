@@ -10,6 +10,7 @@
         :maxdepth: 2
         :caption: 工作笔记
 
+        mm/mm_vmm
         cuda
         code_navigation
         git
