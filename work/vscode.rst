@@ -33,7 +33,7 @@ vscode 调试运行在QEMU中的内核
 vscode vim插件自动切换输入法
 =======================================
 
-以windows为例，首先从 `im-select`_ 下载im-select.exe, 然后参考 `vscode-vim_` 来
+以windows为例，首先从 `im-select`_ 下载im-select.exe, 然后参考 `vscode-vim`_ 来
 
 .. _vscode-vim: https://gitcode.com/VSCodeVim/Vim/overview
 .. _im-select: https://gitcode.com/daipeihust/im-select/overview
