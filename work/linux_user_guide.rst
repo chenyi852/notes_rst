@@ -15,6 +15,15 @@ linux使用指南
 
 .. _`fcitx5-rime挂接小鹤拼音`: https://rovo98.github.io/posts/2f1de6fa/
 
+字体安装
+------------
+Unpack fonts to ~/.local/share/fonts 
+(or /usr/share/fonts, to install fonts system-wide) and fc-cache -f -v
+从 `jetBrains`_ 可以下载到字体
+
+.. _jetBrains: https://www.jetbrains.com/lp/mono/
+
+
 安装autojump
 -------------
 
