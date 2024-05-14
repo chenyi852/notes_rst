@@ -60,7 +60,7 @@ if语法
 
 第三方插件如下 `django_package`_
 
-.. _django: https://djangopackages.org/
+.. _django_package: https://djangopackages.org/
 
 
 网页
