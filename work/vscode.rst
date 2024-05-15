@@ -35,5 +35,16 @@ vscode vim插件自动切换输入法
 
 以windows为例，首先从 `im-select`_ 下载im-select.exe, 然后参考 `vscode-vim`_ 来
 
+以macos为例，我用的是macbook air M2，安装好im-select后，在命令行输入`im-select`, 然后看
+到显示的是 *com.apple.keylayout.ABC*, 所以vscode的settings.json文件为 
+
+.. code-block:: json
+    
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}"
+
+
 .. _vscode-vim: https://gitcode.com/VSCodeVim/Vim/overview
 .. _im-select: https://gitcode.com/daipeihust/im-select/overview
