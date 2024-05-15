@@ -5,7 +5,7 @@ openHarmony DFX总结
 ==================================
 
 .. list-table:: 应用恢复API全集
-    : headerer-rows: 1
+    :header-rows: 1
 
     * - 接口
       - 说明
