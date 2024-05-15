@@ -11,6 +11,7 @@
         :caption: 工作笔记
 
         mm/mm_vmm
+        openharmony/index
         cuda
         code_navigation
         git
