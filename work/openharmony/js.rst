@@ -31,3 +31,6 @@ JSON 支持：QuickJS 支持 JSON 的解析和生成。
 
 QuickJS 适用于需要一个快速、可嵌入的 JavaScript 引擎的场景，如嵌入式设备、Web 服务器插件或其他需要执行 JavaScript 代码的应用程序。
 由于其轻量级和高性能，QuickJS 也适合用于教育和研究目的，帮助开发者和学生更好地理解 JavaScript 引擎的工作原理。
+
+
+[1] Cube 小程序技术详解 | Cube 技术解读: https://open.alipay.com/portal/forum/post/102701021?ant_source=opendoc_recommend
