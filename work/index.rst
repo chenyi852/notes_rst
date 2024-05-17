@@ -16,7 +16,6 @@
         cuda
         code_navigation
         git
-        javascript
         django
         docker
         正则表达式

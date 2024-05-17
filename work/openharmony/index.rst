@@ -12,4 +12,4 @@ openHarmony OS相关技术总结
         :caption: 技术总结
 
         dfx
-        js
+        javascript
