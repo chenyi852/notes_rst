@@ -53,3 +53,18 @@ QuickJS 适用于需要一个快速、可嵌入的 JavaScript 引擎的场景，
 
 
 [1] Cube 小程序技术详解 | Cube 技术解读: https://open.alipay.com/portal/forum/post/102701021?ant_source=opendoc_recommend
+
+node和npx运算时间
+=======================
+
+通过用time计时，node的运行时间比npx要快，尽管node需要先通过tsc将ts文件转换成js文件后再运行。
+
+.. code-block:: shell
+
+    ❯ time /bin/bash -c 'tsc && node dist/index.js'
+    hello, World!
+    /bin/bash -c 'tsc && node dist/index.js'  0.78s user 0.04s system 213% cpu 0.382 total
+
+    ❯ time npx ts-node src/index.ts
+    hello, World!
+    npx ts-node src/index.ts  1.06s user 0.07s system 195% cpu 0.579 total
