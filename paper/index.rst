@@ -11,3 +11,4 @@
         :caption: 论文读后总结
 
         corey
+        zero_bubble_pipeline_parallelism
