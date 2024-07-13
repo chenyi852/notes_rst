@@ -34,7 +34,7 @@ vscode vim插件自动切换输入法
 =======================================
 
 以windows为例，首先从 `im-select`_ 下载im-select.exe, 然后参考 `vscode-vim`_ 来
-
+@
 以macos为例，我用的是macbook air M2，安装好im-select后，在命令行输入`im-select`, 然后看
 到显示的是 *com.apple.keylayout.ABC*, 所以vscode的settings.json文件为 
 
@@ -48,3 +48,24 @@ vscode vim插件自动切换输入法
 
 .. _vscode-vim: https://gitcode.com/VSCodeVim/Vim/overview
 .. _im-select: https://gitcode.com/daipeihust/im-select/overview
+
+vscode查看内核源码
+===========================
+
+用vscode查看内核源码，可以参考下面的博客 `Vscode+Clangd阅读linux内核源码`_
+
+#. 在工程的根目录创建.clangd文件，填入以下内容： ::
+
+        32位：
+            CompileFlags:
+            Add: --target=armv7-a
+        64位：
+            CompileFlags:
+            Add: --target=aarch64-linux-gnu
+            Remove: -mabi=lp64
+
+.. _Vscode+Clangd阅读linux内核源码: https://blog.51cto.com/u_15948528/6027918
+vscode设置
+=====================
+
+#. 主题颜色：*tokyo night pro navi*
