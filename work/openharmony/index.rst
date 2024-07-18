@@ -13,4 +13,3 @@ openHarmony OS相关技术总结
 
         dfx
         javascript
-        zero_bubble_pipline_pa

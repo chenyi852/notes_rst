@@ -65,7 +65,18 @@ vscode查看内核源码
             Remove: -mabi=lp64
 
 .. _Vscode+Clangd阅读linux内核源码: https://blog.51cto.com/u_15948528/6027918
+
 vscode设置
 =====================
 
 #. 主题颜色：*tokyo night pro navi*
+
+vscode设置python虚拟环境
+============================
+
+#. 打开VSCode的设置（可以通过点击左下角的齿轮图标，然后选择“设置”）。
+#. 搜索“Python: Select Interpreter”。
+#. 选择“Auto-detect interpreter from the active environment”选项。
+
+这样，VSCode将自动检测并使用当前激活的虚拟环境中的Python解释器。
+
