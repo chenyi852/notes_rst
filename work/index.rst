@@ -26,6 +26,7 @@
         linux_user_guide
         pacman
         python
+        nodejs
         onenote
         vscode
         excel
