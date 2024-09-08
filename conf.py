@@ -84,6 +84,6 @@ html_logo = '_static/python-logo-generic.svg'
 # https://sphinx-doc.readthedocs.io/zh-cn/master/usage/markdown.html
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'markdown',
+    #'.txt': 'markdown',
     '.md': 'markdown',
 }    
