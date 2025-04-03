@@ -51,18 +51,32 @@ MySQL和sysbench工具
   基准测试的方法。
 
 #. sysbench简介
-   sysbench时跨平台的基准测试工具，支持多线程，支持多种数据库；主要包括以下集中测试：
+    sysbench时跨平台的基准测试工具，支持多线程，支持多种数据库；主要包括以下集中测试：
 
-     - CPU性能
+      - CPU性能
      
-     - 磁盘IO性能
+      - 磁盘IO性能
 
-     - 调度程序性能
+      - 调度程序性能
 
-     - 内存分配及传输速度
+      - 内存分配及传输速度
 
-     - POSIX线程性能
+      - POSIX线程性能
 
-     - 数据库性能(OLTP基准测试)
+      - 数据库性能(OLTP基准测试)
 
-     
+    下载解压缩安装 ::
+
+      wget https://github.com/akopytov/sysbench/archive/1.0.zip -O "sysbench-1.0.zip"
+      unzip sysbench-1.0.zip
+      cd sysbench-1.0
+
+    安装依赖 ::
+
+      yum install automake libtool –y
+
+      ./autogen.sh
+      ./configure
+      export LD_LIBRARY_PATH=/usr/local/mysql/include #这里换成机器中mysql路径下的include
+      make
+      make install
