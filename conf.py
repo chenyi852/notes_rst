@@ -87,4 +87,5 @@ source_suffix = {
     #'.txt': 'markdown',
     #'.md': 'markdown',
 }    
+# pip install jieba 来支持中文分词
 html_search_language = 'zh'
