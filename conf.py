@@ -87,3 +87,4 @@ source_suffix = {
     #'.txt': 'markdown',
     '.md': 'markdown',
 }    
+html_search_language = 'zh'

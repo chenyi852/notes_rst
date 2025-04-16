@@ -80,3 +80,15 @@ MySQL和sysbench工具
       export LD_LIBRARY_PATH=/usr/local/mysql/include #这里换成机器中mysql路径下的include
       make
       make install
+
+2025-04-16
+====================
+
+#. rst支持中文搜索
+   Sphinx默认不支持中文搜索，需要安装中文分词扩展来支持中文搜索。::
+
+   pip install jieba
+
+   修改配置文件， 在最后添加::
+
+   html_search_language = 'zh'     
