@@ -85,6 +85,6 @@ html_logo = '_static/python-logo-generic.svg'
 source_suffix = {
     '.rst': 'restructuredtext',
     #'.txt': 'markdown',
-    '.md': 'markdown',
+    #'.md': 'markdown',
 }    
 html_search_language = 'zh'
