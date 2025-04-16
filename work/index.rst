@@ -13,6 +13,7 @@
         mm/mm_vmm
         openharmony/index
         os_setup/index
+        虚拟化/index
         cuda
         code_navigation
         git

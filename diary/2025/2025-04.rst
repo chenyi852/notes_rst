@@ -40,6 +40,7 @@ MySQL和sysbench工具
        请求的最大响应时间。
 
      - 并发量： 同时处理的查询请求的数量。
+
   对于MySQL的基准测试，有如下两种思路：
     - 针对整个系统的基准测试：通过http请求进行测试，如通过浏览器、APP或postman等测试工具。该方案的
       优点是能够更好的针对整个系统，测试结果更加准确；缺点是涉及复杂实现困难。
@@ -87,8 +88,8 @@ MySQL和sysbench工具
 #. rst支持中文搜索
    Sphinx默认不支持中文搜索，需要安装中文分词扩展来支持中文搜索。::
 
-   pip install jieba
+    pip install jieba
 
    修改配置文件， 在最后添加::
 
-   html_search_language = 'zh'     
+    html_search_language = 'zh'     
