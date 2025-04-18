@@ -11,6 +11,7 @@
         :caption: 工作笔记
 
         mm/mm_vmm
+        调度/index
         openharmony/index
         os_setup/index
         虚拟化/index
