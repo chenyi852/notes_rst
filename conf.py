@@ -82,10 +82,9 @@ html_siderbars = {
 html_logo = '_static/python-logo-generic.svg'
 
 # https://sphinx-doc.readthedocs.io/zh-cn/master/usage/markdown.html
+#'.md': 'markdown',
 source_suffix = {
     '.rst': 'restructuredtext',
-    #'.txt': 'markdown',
-    #'.md': 'markdown',
 }    
 # pip install jieba 来支持中文分词
 html_search_language = 'zh'

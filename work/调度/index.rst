@@ -11,4 +11,4 @@
         :maxdepth: 2
         :caption: 调度相关知识
 
-        SMT
+        smt
