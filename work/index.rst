@@ -15,6 +15,7 @@
         openharmony/index
         os_setup/index
         虚拟化/index
+        AI/index
         cuda
         code_navigation
         git
