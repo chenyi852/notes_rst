@@ -74,4 +74,4 @@ MCP Client
 ---------------
 
 MCP Client一般选用AI应用程序(如 Clande Desktop、cline或其他LLM工具), 负责发起请求
-并与服务器通宵。
+并与服务器通信。
