@@ -1,0 +1,20 @@
+:Author: - johnny
+
+.. list-table::
+    :header-rows: 1
+
+    * - author
+      - 发布时间
+
+    * - johnny
+      - 2025-06-19
+
+===========
+2025-06日记
+===========
+
+2025-06-19
+----------
+
+obsidian默认使用80列来换行，因此如果用vim来写markdown文档，保证80列就换行。
+否则，obsidian打开后，超过80列的文字会被obsidian自动换行。
